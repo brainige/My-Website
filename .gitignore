@@ -1,0 +1,13 @@
+# Ignore sensitive environment variables
+.env
+
+# Ignore large dependency folders
+node_modules/
+
+# Ignore system-specific files (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore build folders (like from React or Vite)
+dist/
+build/
