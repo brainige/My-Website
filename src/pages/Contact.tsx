@@ -23,7 +23,7 @@ const externalRelays = [
   {
     label: 'Direct Mail',
     icon: '✉',
-    href: 'mailto:brainigeme@gmail.com',
+    href: 'mailto:brainigemee@gmail.com',
     color: '#444',
   },
 ];

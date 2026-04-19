@@ -103,7 +103,7 @@ export default function Footer() {
           <div style={{ display: 'flex', gap: '24px' }}>
             {[
               { label: 'GitHub', href: 'https://github.com/brainige' },
-              { label: 'Email', href: 'mailto:brainigeme@gmail.com' },
+              { label: 'Email', href: 'mailto:brainigemee@gmail.com' },
             ].map((item) => (
               <a
                 key={item.label}
