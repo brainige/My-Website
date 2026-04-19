@@ -364,7 +364,7 @@ export default function Contact() {
                       MANUAL COMMUNICATION UPLINK
                     </div>
                     <a
-                      href="mailto:brainigeme@gmail.com"
+                      href="mailto:brainigemee@gmail.com"
                       style={{
                         fontFamily: "'Space Grotesk', sans-serif",
                         fontWeight: 500,
@@ -373,13 +373,13 @@ export default function Contact() {
                         textDecoration: 'none',
                       }}
                     >
-                      brainigeme@gmail.com
+                      brainigemee@gmail.com
                     </a>
                   </div>
                 </div>
 
                 <a
-                  href="mailto:brainigeme@gmail.com"
+                  href="mailto:brainigemee@gmail.com"
                   style={{
                     display: 'inline-flex',
                     alignItems: 'center',

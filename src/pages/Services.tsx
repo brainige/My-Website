@@ -651,7 +651,7 @@ export default function Services() {
                     textTransform: 'uppercase',
                   }}
                 >
-                  BRAINIGEME@GMAIL.COM
+                  BRAINIGEMEE@GMAIL.COM
                 </span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
