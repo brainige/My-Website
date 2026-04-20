@@ -1,0 +1,6 @@
+services:
+  - type: static_site
+    name: website4
+    env: node
+    buildCommand: npm run build
+    publishPath: dist

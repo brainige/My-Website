@@ -1,6 +1,5 @@
 {
   "name": "my-website",
-  "homepage": "https://brainige.github.io/My-Website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
