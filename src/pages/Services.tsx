@@ -12,6 +12,18 @@ export default function Services() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    // Basic input sanitization (trimming)
+    const sanitizedData = {
+      fullName: formData.fullName.trim(),
+      email: formData.email.trim(),
+      serviceCategory: formData.serviceCategory,
+      projectBriefing: formData.projectBriefing.trim(),
+    };
+
+    // In a real application, we would send sanitizedData to a backend API
+    console.log('Service request received:', sanitizedData);
+
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 3000);
     setFormData({ fullName: '', email: '', serviceCategory: 'Visual Content & Post-Production', projectBriefing: '' });
