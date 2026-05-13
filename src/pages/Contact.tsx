@@ -39,6 +39,18 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    // Basic input sanitization (trimming)
+    const sanitizedData = {
+      identity: formData.identity.trim(),
+      endpoint: formData.endpoint.trim(),
+      subject: formData.subject.trim(),
+      payload: formData.payload.trim(),
+    };
+
+    // In a real application, we would send sanitizedData to a backend API
+    console.log('Form submission received:', sanitizedData);
+
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 4000);
     setFormData({ identity: '', endpoint: '', subject: '', payload: '' });
